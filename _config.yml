@@ -14,7 +14,7 @@ author: Albert Chiu
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+#  About Me: "aboutme"
   Research: "research"
   CV: "https://docs.google.com/viewer?url=https://docs.google.com/document/d/1UnB4ie76Gx4YeTADS6zIRWr_Wz4e8VmnzFcyqqCmvsw/export?format=pdf"
 
