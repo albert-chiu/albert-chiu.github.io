@@ -193,7 +193,7 @@ date_format: "%-d %B, %Y"
 # Output options (more information on Jekyll's site)
 timezone: "America/Palo Alto"
 markdown: kramdown
-highlighter: rouge
+highlighter: "#8c1515" #rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
 
