@@ -45,16 +45,16 @@ CSS: "/assets/css/style.css"
             <!--<h3 class="animated wow zoomIn">Publications</h3>-->
 <h3> Publications </h3>
 			<!-- <p class="qui animated wow zoomIn" data-wow-delay="0s">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil.</p> -->
-			<div class="panel-group" id="accordion-wp" role="tablist" aria-multiselectable="true">
+			<div class="panel-group" id="accordion-pub" role="tablist" aria-multiselectable="true">
 				<div class="panel panel-default">
 					<div class="panel-heading panel-heading-sub" role="tab" id="headingTwo-pub">
 						<h4 class="panel-title asd pull">
-						<a class="pa_italic" role="button" data-toggle="collapse" data-parent="#accordion-wp" href="#collapseOne-wp" aria-expanded="true" aria-controls="collapseOne-wp">
+						<a class="pa_italic" role="button" data-toggle="collapse" data-parent="#accordion-pub" href="#collapseOne-pub" aria-expanded="true" aria-controls="collapseOne-pub">
 															<!--   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span><i class="glyphicon glyphicon-menu-up" aria-hidden="true"></i> --> Bayesian Rule Set: A Quantitative Alternative to Qualitative Comparative Analysis</a>
-						<a "style:color=#4d4f53"> with Yiqing Xu, 2023. <i>The Journal of Politics</i>. </a></a>
+						<a "style:color=#4d4f53"> with Yiqing Xu, 2023. <i>The Journal of Politics</i>. </a>
 						</h4>
 					</div>
-					<div id="collapseOne-wp" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne-wp">
+					<div id="collapseOne-pub" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne-pub">
 						<div class="panel-body panel_text">
 							We introduce Bayesian Rule Set (BRS) as an alternative to Qualitative Comparative Analysis (QCA). BRS is an interpretable machine learning algorithm that classifies observations using rule sets, which are conditions connected by logical operators, eg IF (condition A AND condition B) OR (condition C), THEN Y= TRUE. Like QCA, BRS is highly interpretable and capable of revealing complex nonlinear relationships among explanatory and outcome variables. It has several advantages over QCA. First, as a machine learning algorithm, BRS makes explicit trade-offs between in-sample fitness and model-complexity, thus, it avoids overfitting and improves model interpretability. Second, unlike QCA, BRS tolerates contradictory cases. Third, BRS is scalable and computationally efficient with larger datasets. We tailor BRS to social science settings, quantify its uncertainties, and develop new visualization tools to better present BRS results. Monte Carlo exercises show that BRS outperforms a state-of-the-art QCA algorithm when contradictory cases are present, with this advantage growing with data quantity. We illustrate BRS and new visualization tools using two empirical examples from sociology and political science.
 
@@ -89,14 +89,14 @@ CSS: "/assets/css/style.css"
 						</div>
 -->
 						<div class="panel panel-default">
-							<div class="panel-heading panel-heading-sub" role="tab" id="headingOne-pub">
+							<div class="panel-heading panel-heading-sub" role="tab" id="headingTwo-pub">
 							  <h4 class="panel-title asd">
-								<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion-wp" href="#collapseTwo-wp" aria-expanded="false" aria-controls="collapseTwo-wp">
+								<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion-pub" href="#collapseTwo-pub" aria-expanded="false" aria-controls="collapseTwo-wp">
                                     <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span><i class="glyphicon glyphicon-menu-up" aria-hidden="true"></i> --> No Evidence of Backlash: LGBT Rights in Latin America</a>
 								<a "style:color=#4d4f53"> with Lucas de Abreu Maia and Scott Desposato, 2023. <i>The Journal of Politics</i>. </a>
 							  </h4>
 							</div>
-							<div id="collapseTwo-wp" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo-wp">
+							<div id="collapseTwo-pub" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo-pub">
 							  <div class="panel-body panel_text">
 								Since the Civil Rights Movement, scholars have warned that pro-minority policies can create a backlash effect in the majority. Some observers fear these dynamics may be at work in Latin America, where after dramatic advances in LGBT rights, voters have elected anti-gay leaders. To investigate, we created the Latin American Rainbow Index–a measure of LGBT rights in the continent by country–and combined it with individual survey responses to test whether granting new rights had any discernible impact on attitudes. We find no evidence of backlash and little evidence of polarization. We also provide a new index of LGBT rights in the continent, which may be used by other scholars to further examine the LGBT movement in Latin America.
 
@@ -125,6 +125,28 @@ CSS: "/assets/css/style.css"
 		<div class="container">
             <!--<h3 class="animated wow zoomIn">Publications</h3>-->
 <h3> Working papers </h3>
+
+	<div class="panel-group" id="accordion-wp" role="tablist" aria-multiselectable="true">
+		<div class="panel panel-default">
+			<div class="panel-heading panel-heading-sub" role="tab" id="headingOne-wp">
+				<h4 class="panel-title asd pull">
+				<a class="pa_italic" role="button" data-toggle="collapse" data-parent="#accordion-wp" href="#collapseOne-wp" aria-expanded="true" aria-controls="collapseOne-wp">
+													<!--   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span><i class="glyphicon glyphicon-menu-up" aria-hidden="true"></i> --> What To Do (and Not to Do) with Causal Panel Analysis under Parallel Trends: Lessons from A Large Reanalysis Study</a>
+				<a "style:color=#4d4f53"> with Xingchen Lan, Ziyi Liu, and Yiqing Xu. </a>
+				</h4>
+			</div>
+			<div id="collapseOne-wp" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne-wp">
+				<div class="panel-body panel_text">
+					Two-way fixed effects (TWFE) models are widely used for causal panel analysis in political science. However, recent methodological advancements cast doubt on the validity of the TWFE estimator in the presence of heterogeneous treatment effects (HTE) and violations of the parallel trends assumption (PTA). In response, researchers have proposed a variety of novel estimators and testing procedures. Our study aims to gauge the effects of these issues on empirical political science research and evaluate the practical performance of these new proposals. We undertake a review, replication, and reanalysis of 38 papers recently published in the American Political Science Review, American Journal of Political Science, and Journal of Politics that use observational panel data with binary treatments. Through both visual and statistical tests, we discover that the use of HTE-robust estimators, while potentially impacting precision, generally does not alter the substantive conclusions originally drawn from TWFE estimates. However, violations of the PTA and lack of sufficient statistical power persist as the primary challenges to credible inference. In light of these findings, we put forth recommendations to assist empirical researchers to improve practices.
+
+					<br> <br>
+					Preprint available at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4490035">SSRN</a>
+					<br>
+					<a href="https://yiqingxu.org/papers/english/2023_panel/SM_B.pdf">Markdown Files (Supplementary Materials B)</a>
+				</div>
+			</div>
+		</div>
+	</div>
 			<!-- <p class="qui animated wow zoomIn" data-wow-delay="0s">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil.</p> -->
 <!-----
 					<div class="panel-group" id="accordion-wp" role="tablist" aria-multiselectable="true">
