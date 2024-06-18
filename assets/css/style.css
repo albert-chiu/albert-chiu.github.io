@@ -6,14 +6,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 html, body{
     font-size: 100%;
-	font-family: "Gill Sans MT", sans-serif;
+	font-family: "Gill Sans MT";
 }
 p{
 	margin:0;
 	font-size:14px;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: "Gill Sans MT", sans-serif;
+	font-family: "Gill Sans MT";
 	font-weight:100;
 	margin:0;
 }
