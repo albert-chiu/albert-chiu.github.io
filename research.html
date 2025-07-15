@@ -156,8 +156,19 @@ CSS: "/assets/css/style.css"
 	<div class="panel-group" id="accordion-wp" role="tablist" aria-multiselectable="true">
 		<div class="panel panel-default">
 			<div class="panel-heading panel-heading-sub" role="tab" id="headingOne-wp">
-				<h4 class="panel-title asd pull">				
+				<h4 class="panel-title asd pull">
+					<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion-pub" href="#collapseOne-wp" aria-expanded="false" aria-controls="collapseOne-wp">
+						An Algorithm for Identifying Interpretable Subgroups With Elevated Treatment Effects
+					</a>
 				</h4>
+			</div>
+			<div id="collapseOne-wp" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne-wp">
+				<div class="panel-body panel_text">
+				We introduce an algorithm for identifying interpretable subgroups with elevated treatment effects, given an estimate of individual or conditional average treatment effects (CATE). Subgroups are characterized by “rule sets”—easy-to-understand statements of the form (Condition A AND Condition B) OR (Condition C)—which can capture high-order interactions while retaining interpretability. Our method complements existing approaches for estimating the CATE, which often produce high dimensional and uninterpretable results, by summarizing and extracting critical information from fitted models to aid decision making, policy implementation, and scientific understanding. We propose an objective function that trades-off subgroup size and effect size, and varying the hyperparameter that controls this trade-off results in a “frontier” of Pareto optimal rule sets, none of which dominates the others across all criteria. Valid inference is achievable through sample splitting. We demonstrate the utility and limitations of our method using simulated and empirical examples.
+				<br> <br>
+				Preprint available on <a href="https://arxiv.org/abs/2507.09494"><i>arxiv</i></a>.
+				<br>
+				</div>
 			</div>
 		</div>
 	</div>
